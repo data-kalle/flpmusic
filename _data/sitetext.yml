@@ -15,21 +15,29 @@ en: &DEFAULT_EN
     text: "New World"
     button: Listen
     buttonlink: "#portfolio"
-
-  services:
-    title: "Services"
-    text: "Lorem ipsum"
-    section: services
+  about:
+    title: "About"
+    section: about
+    text: ""
+    body: ""
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "FLP"
+        desc: "*Uplifting and unforgettable*, FLP strives for innovation 
+          on all fronts, built upon a classic Swedish Progressive House 
+          sound and captivating themes of a better tomorrow."
+        #icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+        image: assets/img/flpmusic/flp_logo.png
+      - title: "Lizen"
+        desc: "*Fluid and serene*, Lizen carefully curates lush, 
+          meditative drones for relaxation, meditation and focus."
+        image: assets/img/flpmusic/lizen_logo-sketch.png
+        #icon: fas fa-laptop
+      - title: "PYRO-TEC"
+        desc: "*Rebellious and unhinged*, PYRO-TEC fuses hacker 
+          culture, electro and cyberpunk into one unrelenting 
+          and exciting project ready for the future."
+        image: assets/img/flpmusic/pyro-tec_logo.png
+        #icon: fab fa-markdown
 
   portfolio:
     title: "Portfolio"
@@ -67,12 +75,6 @@ en: &DEFAULT_EN
         # you can enforce the alignment
         align: right
     end: "Be Part <br> of Our <br> Story!"
-
-  about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: about
 
   clients:
     section: clients
