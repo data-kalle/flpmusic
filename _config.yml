@@ -22,8 +22,8 @@ email      : contact@flpmusic.com #this is also the email contact forms will go 
 description: "Website for FLP Music"
 author     : FLP Music
 logo:     #optional, defaults to site title
-  path: assets\img\flpmusic\flpmusic_logo-180px.png
-  height: 180 #height in px, defaults to 52px
+  path: assets\img\flpmusic\flpmusic_logo.png
+  height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 
