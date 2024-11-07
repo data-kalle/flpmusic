@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Privacy Policy
+title: Privacy Policy / Credits
 ---
 <div class="col-lg-12 text-center">
 	<h2 class="section-heading text-uppercase">Privacy Policy</h2>
@@ -10,28 +10,31 @@ This Privacy Policy describes how your personal information is collected, used, 
 
 **PERSONAL INFORMATION WE COLLECT**
 
-{% if site.analytics.google %}
+We do not collect or share any data about you or use any cookies. Please be aware that when you follow links to other websites, their respective privacy policies will tread into effect as long as you are visiting them.
 
-Automatically Collected (Google Analytics):
-
-When you visit the Site, we automatically receive information about your device from your browser, such as your IP address. As you browse the Site, we also collect information about how you interact with the Site. We refer to this automatically-collected information as “Device Information”.
-
-We collect Device Information using cookies. “Cookies” are data files that are placed on your device. For more information about cookies and how to disable them, visit http://www.allaboutcookies.org.
-
-We do this using Google Analytics: <https://www.google.com/intl/en/policies/privacy/>.
-
-You can opt-out of Google Analytics here: <https://tools.google.com/dlpage/gaoptout>.
-
-{% else %}
-
-We do not collect any data about you or use any cookies.
-
-{% endif %}
 
 **CHANGES**
 
 We may update this privacy policy from time to time for personal, operational, legal, or regulatory reasons.
 
+<div class="col-lg-12 text-center">
+	<h2 class="section-heading text-uppercase">CREDITS</h2>
+</div>
+
+**OPEN SOURCE**
+<br><br>
+This website is based on Jekyll, open source, and hosted via GitHub Pages and protected by Cloudflare. The full source code can be accessed on https://github.com/data-kalle/flpmusic
+
+
+**CREDITS**
+<br><br>
+This website is using the "Agency" theme by Raviriley (https://github.com/raviriley).
+Tutorials used:
+Learn CSS Animations In 20 Minutes - For Beginners: https://www.youtube.com/watch?v=SgmNxE9lWcY
+Create Stunning Neon Button Hover Effects | Html CSS Tutorial: https://www.youtube.com/watch?v=hwqLWHLnqwA
+
+Online 
+
 **CONTACT US**
 
-For more information about our privacy practices or if you have questions, please contact us by email at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
+If you have any questions, you are welcome to contact us by email at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
