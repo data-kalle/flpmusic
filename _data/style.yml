@@ -1,8 +1,7 @@
 #Color Customization
 highlight: "#0188fe"
-#white: "#FF0000"
-#black: "#000"
-
+white: "#000"
+black: "#fff"
 #Image Customization
-header-image: "../img/flpmusic/new-world-index.jpg"
+header-image: "../img/header-bg.jpg"
 contact-image: "../img/map-image.png"

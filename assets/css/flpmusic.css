@@ -1,0 +1,51 @@
+---
+---
+/* @import "base/_page.scss"; */
+/* Alt bg colour: #030508*/
+body {
+    background-color: #000000;
+}
+.bg-light {
+    background-color: #000000 !important;
+}
+h2 {
+    color: #00c4ff;
+    text-shadow: 0 0 4px #062ce8;
+}
+p,
+h4 {
+    color: #eef4f4;
+}
+.btn-primary {
+    background-color: #0188fe2d;
+    border-color: #0188fe;
+    border-width: 5px;
+    transition: .5s;
+}
+  
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+    background-color: #00c4ff;
+    border-color: #00c4ff;
+    color: #000000;
+    box-shadow: 0 0 5px  #00c4ff,
+                0 0 25px  #00c4ff,
+                0 0 50px  #00c4ff,
+                0 0 200px  #00c4ff;
+
+}
+.nav-item .nav-link {
+    transition: color 0.3s ease;
+}
+#mainNav {
+    background-color: #000000e8;
+
+}
+#mainNav.navbar-shrink {
+    background-color: #000000e8;
+
+}
+
+header.masthead .intro-text .intro-heading {
+    color: #fff;
+    text-shadow: 0 0 10px #030508;
+}
