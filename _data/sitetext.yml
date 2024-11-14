@@ -4,7 +4,7 @@ en: &DEFAULT_EN
     button: Explore
     buttonlink: "#portfolio"
     section: home
-    body: "<br><br><br><br><br>"
+    body: "<br><br><br><br><br><br><br>"
   portfolio:
     title: "Music"
     section: portfolio
