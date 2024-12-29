@@ -1,0 +1,85 @@
+en: &DEFAULT_EN
+  header:
+    text: "<br><br>"
+    button: Explore
+    buttonlink: "#portfolio"
+    section: home
+    body: "<br><br><br><br><br><br><br>"
+  portfolio:
+    title: "Music"
+    section: portfolio
+    closebutton: "Close"
+  about:
+    title: "About"
+    body: "<h2><i>Happy to see you here!</i> 💃💙 <br><br></h2>
+      <h4>FLP Music is an independent music label for projects by Filip Grönlund. 
+      <br><br><br>
+      <i>What kind of projects,</i> you might ask!
+      That's a very good question! 
+      <br><br><br>
+      This is really a secret, not many know about this, but several new projects are scheduled for release in 2025 here on FLP Music.
+      <br><br><br>
+      Make yourself at home in this corner of the internet, and come along for the ride! 
+      </h4>"
+  team:
+    title: "PROJECTS"
+    section: team
+    people:
+      - name: "FLP"
+        role: '<br>Every beat, straight from his heart!
+          <br>
+          <b>Genres: 
+          Progressive House, 
+          Electro House <hr>
+          Available for booking at your venue.</b>'
+        image: assets/img/team/1.jpg
+        social:
+          # Youtube
+          - url: https://www.youtube.com/@flp.flpmusic/videos
+            icon: fab fa-youtube
+          # Spotify
+          - url: https://open.spotify.com/artist/7D7YgQGAQVpA5yqXX4PTAn
+            icon: fab fa-spotify
+      - name: "Coming soon"
+        role: '<br><br>Release 2025.'
+      - name: "Coming soon"
+        role: '<br><br>Release 2025.'
+      - name: "Coming soon"
+        role: '<br><br>Release 2025.'
+      - name: "Coming soon"
+        role: '<br><br>Release 2025.'
+      - name: "Coming soon"
+        role: '<br><br>Release TBA.'
+  contact:
+    title: "Contact"
+    text: ""
+    body: |-
+      <h4>✨ Let's get in touch! ✨</h4>
+      <br>
+      <div class="link-hover">
+        <h2><SCRIPT LANGUAGE="JavaScript">
+          user = 'contact';
+          site = 'flpmusic.com';
+          document.write('<a href=\"mailto:' + user + '@' + site + '\">');
+          document.write(user + '@' + site + '</a>');
+        </SCRIPT></h2>
+      </div>
+      <br>
+    section: contact
+  footer:
+    legal: "Privacy Policy & Credits"
+    social:
+      - url: https://instagram.com/_flpmusic
+        icon: "fab fa-instagram"
+      - url: https://youtube.com/@flp_music
+        icon: "fab fa-youtube"
+      - url: https://flpmusic.bandcamp.com/
+        icon: "fab fa-bandcamp"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN

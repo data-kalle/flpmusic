@@ -1,0 +1,49 @@
+---
+layout: page
+---
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <h2 class="section-heading text-uppercase">{{ page.title }}</h2>
+      <h3 class="section-subheading text-muted">{{ page.date | date: '%B %d, %Y' }}{% if page.author %} - {{ page.author }}{% endif %}</h3>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-lg-8 mx-auto">
+      {% if page.thumbnail %}
+      <img class="img-fluid mb-4" src="{{ page.thumbnail }}" alt="{{ page.title }}">
+      {% endif %}
+      
+      <article class="blog-post">
+        {{ content }}
+      </article>
+      
+      {% if page.categories or page.tags %}
+      <div class="mt-4">
+        {% if page.categories %}
+        <div class="mb-2">
+          <strong>Categories:</strong>
+          {% for category in page.categories %}
+          <span class="badge badge-primary">{{ category }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+        
+        {% if page.tags %}
+        <div>
+          <strong>Tags:</strong>
+          {% for tag in page.tags %}
+          <span class="badge badge-secondary">{{ tag }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      {% endif %}
+      
+      <div class="text-center mt-5">
+        <a href="/blog/" class="btn btn-primary btn-xl text-uppercase">Back to Blog</a>
+      </div>
+    </div>
+  </div>
+</div>
