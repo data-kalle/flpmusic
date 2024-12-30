@@ -9,7 +9,7 @@ name: deploy-jekyll-v2
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
+    branches: [$default-branch]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -29,7 +29,11 @@ concurrency:
 jobs:
   # Build job
   build:
+<<<<<<< HEAD
     runs-on: ubuntu-22.04
+=======
+    runs-on: ubuntu-latest
+>>>>>>> 09c8f5cff1098488c328dbbdb29607bcafe4a295
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -56,7 +60,11 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+<<<<<<< HEAD
     runs-on: ubuntu-22.04
+=======
+    runs-on: ubuntu-latest
+>>>>>>> 09c8f5cff1098488c328dbbdb29607bcafe4a295
     needs: build
     steps:
       - name: Deploy to GitHub Pages
